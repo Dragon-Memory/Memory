@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>个人名言</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/templatemo_style.css">
+    <link rel="icon" href="./picture/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--End-->
+    <script>
+    fetch('https://v1.hitokoto.cn')
+        .then(function (res){
+        return res.json();
+        })
+        .then(function (data) {
+        var hitokoto = document.getElementById('hitokoto');
+        hitokoto.innerText = data.hitokoto;
+        })
+        .catch(function (err) {
+        console.error(err);
+        })
+    </script>
+
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+
+<!--这里是上方的留白，万一以后想加个导航什么的呢。。。。-->
+<header class="site-header container animated fadeInDown">
+	<div class="header-wrapper"></div>
+</header>
+
+<div id="menu-container">
+	<div id="menu-1" class="homepage home-section container">
+		<div class="home-intro text-center">
+			<h2 class="welcome-title animated fadeInLeft">Dragon-Yingmo<p>坚持一下，扛过今天。<br/>Hang in there, get through today.</p></h2>
+			<p class="animated fadeInRight">没有太晚的开始，不如就从今天行动。<br />It's not too late to start, it's better to start today.<br />靠自己，才不会输。<br />Depend on oneself, don't lose.<br />说出来会被嘲笑的梦想才有实现的价值。<br />Say it will be laughed at the value of the dream is true.<br />为了那个TA，你要奋不顾身。<br />In order to the TA, you want to.</p>
+    	</div>
+    <div style="border-bottom: 2px solid #46494f;"></div>
+       <br /><br />
+
+<div class="projects-header">
+    <h3 class="animated fadeInRight">我的故事</h3>
+            <h3 class="animated fadeInRight">My hobby</h3><br /><br />
+            <p class="animated fadeInLeft">忽有故人心上头，回首山河已是冬。<br />她朝若是同淋雪，此生也算共白头。<br />可惜<br />故人身畔新人卧，山河冬雪独自卧。<br />何来相思盼心魄，此生白头不复错。<br /> Suddenly, an old man's heart turned back and it was winter. If she had been snowed with me in the morning, I would have been white in my life. It's a pity that the new man lies beside the old man, while the winter snow lies alone. How can I miss and hope for my soul? I will never be wrong again in this life.<br />
+                未曾经历他人之痛，何言感同身受<br />Have not experience the pain of others, David empathy<br/>
+                曾经或许有可能，现在真的不可能<br/>Once might have, now really can't<br/>
+                没有人陪你一辈子，所以你要适应孤独。没有人能帮你一辈子，所以你要奋斗一生。<br/>No one to accompany you for a lifetime, so you have to adapt to loneliness.No one can help you for a lifetime, so you have to struggle for life.
+            </p>
+        </div>
+        <div class="projects-holder">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/m1.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" >逐梦</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/m2.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip">之路</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+                    <div class="project-item">
+                        <img src="picture/m3.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip" >很苦</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+                    <div class="project-item animated umScaleIn">
+                        <img src="picture/m5.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip">愿意</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-5 animated umScaleIn">
+                        <img src="picture/m6.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip">陪我</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-6 animated umScaleIn">
+                        <img src="picture/m7.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip">一起</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="project-item p-7 animated umScaleIn">
+                        <img src="picture/m8.jpg" alt="">
+                        <div class="overlay">
+                            <h4><a href="#" class="tooltip-test" data-toggle="tooltip">吗？</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         <div style="border-bottom: 2px solid #46494f;"></div> <br />
+        <footer>
+<div class="blog-header text-center">
+	<div class="row">
+		<div class="col-md-12 copyright">
+            <p><a href="../index.html">回到首页</a></p>
+			<p>Copyright &copy; 2023&nbsp;&nbsp;Company By&nbsp;&nbsp;<a href="https://www.github.com/Dragon-Yingmo">Dragon-Yingmo</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		</div>
+	</div>
+</div>
+</footer>
+<!-- templatemo 421 raleway -->
+<span class="border-top"></span>
+<span class="border-left"></span>
+<span class="border-right"></span>
+<span class="border-bottom"></span>
+    <!-- 网易云音乐 -->
+    <embed frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="//music.163.com/outchain/player?type=0&id=4950890732&auto=1&height=0"></embed>
+</body>
+</html>
